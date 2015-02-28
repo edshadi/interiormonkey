@@ -1,7 +1,6 @@
-use Rack::Static,
-  :urls => ["/images", "/assets/css", "/assets/fonts", "/assets/js", "/assets/img", "/assets/third"],
-  :root => "public"
+require 'rack-zippy'
 
+use Rack::Zippy::AssetServer, './public'
 run lambda { |env|
   [
     200,
