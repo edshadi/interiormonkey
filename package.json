@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/edshadi/interiormonkey",
   "devDependencies": {
-    "gulp": "^3.8.11",
+    "gulp": "^3.9.1",
     "gulp-concat": "^2.5.2",
     "gulp-gzip": "^1.0.0",
     "gulp-minify-css": "^0.5.1",
