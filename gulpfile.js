@@ -20,7 +20,7 @@ gulp.task('minifyjs', function() {
   ])
   .pipe(concat('app.min.js'))
   .pipe(uglify())
-  .pipe(gzip())
+  // .pipe(gzip())
   .pipe(gulp.dest('./public/assets/dist/'))
 });
 
@@ -35,10 +35,8 @@ gulp.task('minifycss', function(){
   ])
   // .pipe(minifyCSS())
   .pipe(concat('style.min.css'))
-  .pipe(gzip())
+  // .pipe(gzip())
   .pipe(gulp.dest('./public/assets/dist/'))
 });
 
 gulp.task('default', ['minifyjs', 'minifycss']);
-
-

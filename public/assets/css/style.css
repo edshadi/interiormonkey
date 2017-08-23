@@ -112,7 +112,6 @@ a.btn.btn-default.btn-teplok:focus{
 #header-landing{
 	padding: 8% 0;
 	position:relative;
-	background: rgba(1,1,1,.5);
 }
 #header-landing.inner-page{
 	height: auto;
@@ -962,7 +961,5 @@ div.email-me, div.follow-me {
   padding: 0 5%;
 }
 h3.reham {
-  padding: 0 5%;	
+  padding: 0 5%;
 }
-
-
