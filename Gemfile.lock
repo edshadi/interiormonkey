@@ -10,3 +10,6 @@ PLATFORMS
 DEPENDENCIES
   rack
   rack-zippy
+
+BUNDLED WITH
+   1.17.2
