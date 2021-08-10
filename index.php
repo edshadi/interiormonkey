@@ -1,2 +1,2 @@
 <!-- dont change this -->
-<?php include_once("public/index.html"); ?>
+<?php include_once("index.html"); ?>

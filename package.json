@@ -2,7 +2,7 @@
   "name": "interiormonkey",
   "version": "1.0.0",
   "description": "Interiormonkey.com source code",
-  "main": "public/index.html",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
